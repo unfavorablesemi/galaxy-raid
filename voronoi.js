@@ -13,12 +13,15 @@ const SPRITE_CENTER_X = 0;
 const SPRITE_CENTER_Y = 1;
 /*
 Technically unused, but indicates the position of the different fields
+*/
 const SPRITE_OFFSET_X = 2;
 const SPRITE_OFFSET_Y = 3;
 const SPRITE_CANVAS = 4;
 const SPRITE_TRANSLATE_X = 5;
 const SPRITE_TRANSLATE_Y = 6;
 const SPRITE_ANGLE = 7;
+/*
+end
 */
 
 export function createSprites(targetCanvas) {
